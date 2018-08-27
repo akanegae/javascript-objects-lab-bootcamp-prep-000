@@ -1,4 +1,4 @@
 //1
-var recipes = new Objects();
+var recipes = new Object();
 
 //2
