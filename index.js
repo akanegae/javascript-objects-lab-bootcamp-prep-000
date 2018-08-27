@@ -5,3 +5,8 @@ var recipes = new Object();
 function updateObjectWithKeyAndValue(object, key, value) {
   return Object.assign({}, {[key]: value})
 }
+
+//3
+function deleteFromObjectByKey(object, key) {
+  delete object[key];
+}
